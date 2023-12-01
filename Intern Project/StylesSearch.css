@@ -1,0 +1,47 @@
+html{
+    background-color: lightgrey;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+    font-size: 50px;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    position: relative;
+}
+li a:hover {
+    background-color: #111;
+} 
+.search {
+    background-color: #333;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    font-size: 75px;
+    width: 400px;
+    text-align: center;
+}
+.addtxt{
+    font-size: 50px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 15px;
+    text-align: center;
+    border: solid black;
+    border-width: 5px;
+}
+.submit{
+    font-size: 30px;
+}
